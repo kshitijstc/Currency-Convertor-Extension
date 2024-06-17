@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Currency Converter",
+    "version": "1.0",
+    "description": "Convert prices to your native currency.",
+    "permissions": [
+    "storage",
+    "activeTab",
+    "contextMenus",
+    "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icon16.jpg"
+      }
+    }
+  }
+  
