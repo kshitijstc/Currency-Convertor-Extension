@@ -18,6 +18,7 @@ const Popup = () => {
         fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`)
           .then(response => response.json())
           .then(data => {
+            console.log(data);
             setRates(data.conversion_rates);
             chrome.storage.sync.set({ exchangeRates: data.conversion_rates });
             setLoading(false);
