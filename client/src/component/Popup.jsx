@@ -19,33 +19,42 @@ const Popup = () => {
         setRates(result.exchangeRates);
         setLoading(false);
       } else {
-        fetchRates('USD');
+        fetchRates();
       }
     });
   }, []);
 
-  const fetchRates = (currency) => {
-    fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/latest/${currency}`)
+  const fetchRates = () => {
+    fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`)
       .then(response => response.json())
       .then(data => {
-        setRates(data.conversion_rates);
-        chrome.storage.sync.set({ exchangeRates: data.conversion_rates });
+        if (data.conversion_rates) {
+          setRates(data.conversion_rates);
+          chrome.storage.sync.set({ exchangeRates: data.conversion_rates });
+        } else {
+          console.error('Invalid response from API', data);
+        }
         setLoading(false);
       })
-      .catch(error => console.error('Error fetching exchange rates:', error));
+      .catch(error => {
+        console.error('Error fetching exchange rates:', error);
+        setLoading(false);
+      });
   };
 
   const saveCurrencies = () => {
     chrome.storage.sync.set({
-      nativeCurrency,
-      sourceCurrency,
+      nativeCurrency: nativeCurrency,
+      sourceCurrency: sourceCurrency,
       exchangeRates: rates
     });
   };
 
   useEffect(() => {
-    setLoading(true);
-    fetchRates(sourceCurrency);
+    if (sourceCurrency && nativeCurrency) {
+      setLoading(true);
+      fetchRates();
+    }
   }, [sourceCurrency]);
 
   if (loading) {
@@ -54,7 +63,7 @@ const Popup = () => {
 
   return (
     <div className="p-4">
-      <h1 className="text-lg font-bold">Currency Converter</h1>
+      <h3 className="text-lg font-bold">Currency Converter</h3>
       <div className="mt-4">
         <label htmlFor="sourceCurrency" className="block text-sm font-medium text-gray-700">Source Currency</label>
         <select
@@ -65,7 +74,9 @@ const Popup = () => {
           className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
         >
           {Object.keys(rates).map((rate) => (
-            <option key={rate} value={rate}>{rate}</option>
+            <option key={rate} value={rate}>
+              {rate}
+            </option>
           ))}
         </select>
       </div>
