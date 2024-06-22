@@ -191,7 +191,7 @@ const convertPrices = () => {
     document.body.innerHTML = document.body.innerHTML.replace(currencyRegex, (match, symbol, value) => {
       const parsedValue = parseFloat(value.replace(/,/g, ""));
       if (isNaN(parsedValue)) {
-        return match; // If parsing fails, return the original match
+        return match;
       }
       const convertedValue = (parsedValue * rate).toFixed(2);
       return `${nativeSymbol} ${convertedValue}`;

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 const Popup = () => {
   const [sourceCurrency, setSourceCurrency] = useState('USD');
   const [nativeCurrency, setNativeCurrency] = useState('USD');
@@ -23,7 +22,6 @@ const Popup = () => {
       }
     });
   }, []);
-
   const fetchRates = () => {
     fetch(`https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`)
       .then(response => response.json())
@@ -103,5 +101,4 @@ const Popup = () => {
     </div>
   );
 };
-
 export default Popup;
