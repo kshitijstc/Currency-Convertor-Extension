@@ -1,19 +1,14 @@
-// chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-//   if (request.action === "convertCurrency") {
-//     convertPrices();
-//   }
-// });
-
 const convertPrices = async () => {
-  chrome.storage.sync.get(['nativeCurrency', 'exchangeRates'], (result) => {
+  chrome.storage.sync.get(['nativeCurrency', 'sourceCurrency', 'exchangeRates'], (result) => {
     const nativeCurrency = result.nativeCurrency || 'USD';
+    const sourceCurrency = result.sourceCurrency || 'USD';
     const rates = result.exchangeRates;
-    if (!rates || !rates[nativeCurrency]) {
-      console.error('Exchange rates not found or invalid native currency.');
+    if (!rates || !rates[nativeCurrency] || !rates[sourceCurrency]) {
+      console.error('Exchange rates not found or invalid currency.');
       return;
     }
 
-    const rate = rates[nativeCurrency];
+    const rate = rates[nativeCurrency] / rates[sourceCurrency];
 
     document.body.innerHTML = document.body.innerHTML.replace(/\$\d+(?:,\d{3})*(?:\.\d{2})?/g, (match) => {
       const value = parseFloat(match.replace(/[^0-9.-]+/g, ""));
