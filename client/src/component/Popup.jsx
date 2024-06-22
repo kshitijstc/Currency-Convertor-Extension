@@ -5,7 +5,7 @@ const Popup = () => {
   const [nativeCurrency, setNativeCurrency] = useState('USD');
   const [rates, setRates] = useState({});
   const [loading, setLoading] = useState(true);
-  const apiKey = 'db98adcfce776acb4c910f0f'; // Replace with your actual API key
+  const apiKey = 'db98adcfce776acb4c910f0f';
 
   useEffect(() => {
     chrome.storage.sync.get(['nativeCurrency', 'sourceCurrency', 'exchangeRates'], (result) => {
