@@ -6,7 +6,7 @@ As a developer, I frequently encountered prices in USD for various tools and ser
 ## Table of Contents
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Warning / Pre-Installation Advisory](#warning-/-pre-installation-adivsory)
+- [Warning / Pre-Installation Advisory](#warning--pre-installation-advisory)
 - [Installation](#installation)
 - [Usage](#usage)
 ## Features
