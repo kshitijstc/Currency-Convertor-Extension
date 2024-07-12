@@ -44,6 +44,4 @@ If you experience any of these issues, you can simply remove or unload the exten
    - Select your native currency from the dropdown menu.
 2. **Automatic Conversion**:
    - Browse websites as usual. Prices will automatically be converted to your native currency.
-3. **Manual Conversion**:
-   - Highlight a price on any webpage, right-click, and select "Convert to [Your Currency]" from the context menu.
 
