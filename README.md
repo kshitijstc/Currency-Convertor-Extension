@@ -12,10 +12,10 @@ Welcome to the Currency Converter Chrome Extension! This extension seamlessly co
 1) Download the Extension: [Link to your extension]
 2) Open Chrome Extensions Page:
 - Type '<b>chrome://extensions/</b>' in your Chrome browser's address bar and press Enter.
-Enable Developer Mode:
+3) Enable Developer Mode:
 Toggle the "Developer mode" switch at the top right of the page.
-Load Unpacked Extension:
+4) Load Unpacked Extension:
 Click the "Load unpacked" button and select the folder containing your downloaded extension files.
-Activate the Extension:
+5) Activate the Extension:
 Ensure the extension is activated in your extensions list.
 <img src="https://github.com/kshitijstc/Currency-Convertor-Extension/assets/144511712/f87df252-5dc8-48ba-b033-d9b7002a0d04" alt="currency_convertor" width="400"/><br><br>
