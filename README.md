@@ -20,4 +20,5 @@ Welcome to the Currency Converter Chrome Extension! This extension seamlessly co
 5. **Activate the Extension**:
    - Ensure the extension is activated in your extensions list.
 
+## Screenshots
 <img src="https://github.com/kshitijstc/Currency-Convertor-Extension/assets/144511712/f87df252-5dc8-48ba-b033-d9b7002a0d04" alt="currency_convertor" width="400"/><br><br>
