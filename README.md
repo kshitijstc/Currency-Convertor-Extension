@@ -3,6 +3,7 @@
 Welcome to the Currency Converter Chrome Extension! This extension seamlessly converts prices displayed on websites into your native currency, supporting a comprehensive list of 161 currencies. <br>
 ### Why I Developed This Extension
 As a developer, I frequently encountered prices in USD for various tools and services. Manually converting these prices to my native currency was tedious, so I created this extension to automate the process and save time.
+
 ## Features
 - <b>Automatic Currency Conversion:</b> Detects prices on websites and converts them to your native currency.
 - <b>Supports 161 Currencies:</b> Extensive support for various global currencies.
@@ -13,6 +14,18 @@ As a developer, I frequently encountered prices in USD for various tools and ser
 ## Screenshots
 - This is how the extension will look at the start.<br><br>
 <img src="https://github.com/kshitijstc/Currency-Convertor-Extension/assets/144511712/f87df252-5dc8-48ba-b033-d9b7002a0d04" alt="currency_convertor" width="400"/><br>
+- Before configuring the extension.<br><br>
+- After configuring the extension. <br><br>
+
+## Warning / Pre-Installation Advisory 
+**Note:** Since this extension is currently in the "Load Unpacked" stage and not published on the Chrome Web Store, you might encounter some issues after installation:
+
+- The extension may slow down your browser.
+- The browser may start to malfunction or not function properly.
+
+These issues occur because the extension is not optimized in the unpacked stage. When an extension is published, it goes through a review process and optimization which helps in enhancing performance and stability.
+
+If you experience any of these issues, you can simply remove or unload the extension to restore normal browser functionality.
 
 ## Installation
 1. **Download the Extension**: [Link to your extension]
