@@ -9,6 +9,10 @@ As a developer, I frequently encountered prices in USD for various tools and ser
 - <b>User-Friendly Interface:</b> Simple and intuitive interface for easy usage.
 - <b>Real-Time Exchange Rates:</b> Utilizes up-to-date exchange rates for accurate conversions.
 - <b>Customizable Settings:</b> Allows users to select their preferred native currency and customize conversion behavior.
+  
+## Screenshots
+- This 
+<img src="https://github.com/kshitijstc/Currency-Convertor-Extension/assets/144511712/f87df252-5dc8-48ba-b033-d9b7002a0d04" alt="currency_convertor" width="400"/><br>
 
 ## Installation
 1. **Download the Extension**: [Link to your extension]
@@ -30,5 +34,3 @@ As a developer, I frequently encountered prices in USD for various tools and ser
 3. **Manual Conversion**:
    - Highlight a price on any webpage, right-click, and select "Convert to [Your Currency]" from the context menu.
 
-## Screenshots
-<img src="https://github.com/kshitijstc/Currency-Convertor-Extension/assets/144511712/f87df252-5dc8-48ba-b033-d9b7002a0d04" alt="currency_convertor" width="400"/><br><br>
