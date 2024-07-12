@@ -18,7 +18,7 @@ As a developer, I frequently encountered prices in USD for various tools and ser
 - After configuring the extension. <br><br>
 
 ## Warning / Pre-Installation Advisory 
-**Note:** Since this extension is currently in the "Load Unpacked" stage and not published on the Chrome Web Store, you might encounter some issues after installation:
+**Note:**  Since this extension is currently in the "Load Unpacked" stage and not published on the <b>Chrome Web Store</b>, you might encounter some issues after installation:
 
 - The extension may slow down your browser.
 - The browser may start to malfunction or not function properly.
