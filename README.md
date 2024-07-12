@@ -1,4 +1,11 @@
-# CURRENCY CONVERTOR
+# Currency Convertor Chrome Extension
+## Overview
+Welcome to the Currency Converter Chrome Extension! This extension seamlessly converts prices displayed on websites into your native currency, supporting a comprehensive list of 161 currencies.<br>
+## Features
+- <b>Automatic Currency Conversion:</b> Detects prices on websites and converts them to your native currency.
+- <b>Supports 161 Currencies:</b> Extensive support for various global currencies.
+- <b>User-Friendly Interface:</b> Simple and intuitive interface for easy usage.
+- <b>Real-Time Exchange Rates:</b> Utilizes up-to-date exchange rates for accurate conversions.
+- <b>Customizable Settings:</b> Allows users to select their preferred native currency and customize conversion behavior.
+
 <img src="https://github.com/kshitijstc/Currency-Convertor-Extension/assets/144511712/f87df252-5dc8-48ba-b033-d9b7002a0d04" alt="currency_convertor" width="400"/><br><br>
--Created a Manifest V3 currency convertor extension to convert currencies into native currency.<br>
--Used ExhangeRate API to fetch latest exhange rates and performed DOM manipulation to inject the converted prices into the active website.
