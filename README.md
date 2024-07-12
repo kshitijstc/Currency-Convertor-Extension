@@ -11,7 +11,7 @@ As a developer, I frequently encountered prices in USD for various tools and ser
 - <b>Customizable Settings:</b> Allows users to select their preferred native currency and customize conversion behavior.
   
 ## Screenshots
-- This 
+- This is how the extension will look at the start.<br><br>
 <img src="https://github.com/kshitijstc/Currency-Convertor-Extension/assets/144511712/f87df252-5dc8-48ba-b033-d9b7002a0d04" alt="currency_convertor" width="400"/><br>
 
 ## Installation
