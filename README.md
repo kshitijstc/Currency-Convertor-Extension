@@ -46,7 +46,7 @@ If you experience any of these issues, you can simply remove or unload the exten
 ## Usage
 1. **Set Your Native Currency**:
    - Click on the extension icon in the toolbar.
-   - Select your native currency from the dropdown menu.
+   - Select the source currency and your native currency from the dropdown menu.
 2. **Automatic Conversion**:
    - Browse websites as usual. Prices will automatically be converted to your native currency.
 
