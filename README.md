@@ -2,7 +2,7 @@
 ### Overview
 Welcome to the Currency Converter Chrome Extension! This extension seamlessly converts prices displayed on websites into your native currency, supporting a comprehensive list of 161 currencies. <br>
 ### Why I Developed This Extension
-As a developer, I frequently encountered prices in USD for various tools and services. Manually converting these prices to my native currency was tedious, so I created this extension to automate the process and save time.
+As a developer, I frequently encountered prices in USD for various tools and services needed during the development process. Manually converting these prices to my native currency was tedious, so I created this extension to automate the process and save time.
 ## Table of Contents
 - [Features](#features)
 - [Screenshots](#screenshots)
