@@ -17,22 +17,18 @@ As a developer, I frequently encountered prices in USD for various tools and ser
 - <b>Customizable Settings:</b> Allows users to select their preferred native currency and customize conversion behavior.
   
 ## Screenshots
-- This is how the extension will look at the start.<br><br>
-<img src="https://github.com/kshitijstc/Currency-Convertor-Extension/assets/144511712/f87df252-5dc8-48ba-b033-d9b7002a0d04" alt="currency_convertor" width="400"/><br>
-
-![Screenshot 2024-07-16 142538](https://github.com/user-attachments/assets/fa2284bb-ab2a-40df-a112-d0d6e74a96df)
-
-- Before configuring the extension.<br><br>
-![Screenshot 2024-07-16 142333](https://github.com/user-attachments/assets/546fec67-abd5-47b2-858d-96deb99f897d)
-
-![Screenshot 2024-07-16 142422](https://github.com/user-attachments/assets/e1ff95f1-6ba7-4aa4-9619-b3d0eb18a177)
-
-- After configuring the extension. <br><br>
+- This is how the extension will look at the start.<br>
+<img src="https://github.com/kshitijstc/Currency-Convertor-Extension/assets/144511712/f87df252-5dc8-48ba-b033-d9b7002a0d04" alt="currency_convertor" width="400"/>
+<img src="https://github.com/user-attachments/assets/fa2284bb-ab2a-40df-a112-d0d6e74a96df" alt="currency_convertor" width="283"/><br><br>
 
 
+- Before configuring the extension we can see the prices in the original currency.<br>
+<img src="https://github.com/user-attachments/assets/546fec67-abd5-47b2-858d-96deb99f897d" alt="currency_convertor"/>
+<img src="https://github.com/user-attachments/assets/e1ff95f1-6ba7-4aa4-9619-b3d0eb18a177" alt="currency_convertor"/><br><br>
+
+- After configuring the extension we can see the converted currency. <br>
 ![Screenshot 2024-07-16 142507](https://github.com/user-attachments/assets/b79995e5-8ae1-4239-abd3-6cd77566487d)
-
-![Screenshot 2024-07-16 142619](https://github.com/user-attachments/assets/b3054a67-6e65-4184-b51f-c3175012229a)
+![Screenshot 2024-07-16 142619](https://github.com/user-attachments/assets/b3054a67-6e65-4184-b51f-c3175012229a)<br><br>
 
 ## Warning / Pre-Installation Advisory 
 **Note:**  Since this extension is currently in the "Load Unpacked" stage and not published on the <b>Chrome Web Store</b>, you might encounter some issues after installation:
