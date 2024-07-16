@@ -41,7 +41,7 @@ These issues occur because the extension is not optimized in the unpacked stage.
 If you experience any of these issues, you can simply remove or unload the extension to restore normal browser functionality.
 
 ## Installation
-1. **Download the Extension**: [Link to your extension]
+1. **Download the Extension**: [Link](https://drive.google.com/file/d/15lxPOuoAJnGuRttBAZGq_Osg5QPfeeQS/view?usp=sharing)
 2. **Open Chrome Extensions Page**:
    - Type `chrome://extensions/` in your Chrome browser's address bar and press Enter.
 3. **Enable Developer Mode**:
