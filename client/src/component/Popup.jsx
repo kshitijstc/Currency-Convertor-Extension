@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React,{useState,useEffect} from 'react';
 const Popup = () => {
   const [sourceCurrency, setSourceCurrency] = useState('USD');
   const [nativeCurrency, setNativeCurrency] = useState('USD');
@@ -39,7 +39,7 @@ const Popup = () => {
         setLoading(false);
       });
   };
-
+  
   const saveCurrencies = () => {
     chrome.storage.sync.set({
       nativeCurrency: nativeCurrency,
@@ -48,12 +48,25 @@ const Popup = () => {
     });
   };
 
+  // const saveCurrencies = () => {
+  //   chrome.storage.sync.set({
+  //     nativeCurrency: nativeCurrency,
+  //     sourceCurrency: sourceCurrency,
+  //     exchangeRates: rates
+  //   }, () => {
+  //     // After saving, send message to content script
+  //     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+  //       chrome.tabs.sendMessage(tabs[0].id, { action: "convertCurrency" });
+  //     });
+  //   });
+  // };
+
   useEffect(() => {
     if (sourceCurrency && nativeCurrency) {
       setLoading(true);
       fetchRates();
     }
-  }, [sourceCurrency]);
+  }, [sourceCurrency,nativeCurrency]);
 
   if (loading) {
     return <div className="p-4">Loading...</div>;

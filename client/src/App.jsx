@@ -6,7 +6,6 @@ function App() {
   return (
     <>
     <Popup/>
-    {/* <h1>hello</h1> */}
     </>
   )
 }

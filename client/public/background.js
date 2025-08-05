@@ -1,3 +1,5 @@
+// Description: This file is responsible for fetching the exchange rates from the API and storing them in the storage.
+
 const apiKey = 'db98adcfce776acb4c910f0f';
 
 const fetchRates = async () => {
